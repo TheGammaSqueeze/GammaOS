@@ -7,7 +7,7 @@ Build instructions coming soon
 
 Download
 ----------------------------
-https://drive.google.com/file/d/1Lz-T_E72fe2axRR2P80tAj5s8YTZ_C4y/view?usp=share_link
+https://drive.google.com/file/d/1wxQ78Uq4mQp7qo4AL_TGn1wrGfDbWS4T/view?usp=share_link
 
 Credits
 ----------------------------
@@ -48,7 +48,7 @@ Video guide here: https://youtu.be/0PX-YhjDSdQ
 Prerequisites:
 - Extract the GammaOS folder and its files before proceeding.
 - ADB and Fastboot tools + drivers, ensure you install the Universal ADB Driver then reboot your computer: https://github.com/K3V1991/ADB-and-FastbootPlusPlus
-- Unisoc Drivers - run the DPInst64.exe program in your relevant OS folder, (Win10 drivers will also work on Win11): https://github.com/TheGammaSqueeze/GammaOS/releases/download/GammaOS_v1_RG405M/UnisocDrivers.zip
+- Unisoc Drivers (included in the release zip in the UnisocDrivers folder) - run the DPInst64.exe program in your relevant OS folder. (Win10 drivers will also work on Win11. Also available here: https://github.com/TheGammaSqueeze/GammaOS/releases/download/GammaOS_v1_RG405M/UnisocDrivers.zip)
 - Enable USB Debugging on the RG405M: https://developer.android.com/studio/debug/dev-options
 
 Unlocking bootloader:
