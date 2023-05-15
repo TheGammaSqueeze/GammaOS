@@ -73,3 +73,28 @@ Flashing the custom firmware:
 - When the flashing script is complete, the command prompt window will close itself, you can now reboot your RG405M by pressing the power button once
 - Your device will reboot, and will stay at the Anbernic logo for about 2 minutes before booting into the new firmware for the first time. Reboots after this will be much quicker. Do not be alarmed by the debug messages warning about unlock and skip verify, this is normal after unlocking the bootloader
 - Congratulations, you are now on GammaOS! 
+
+
+Help! My device is no longer booting! Or I want to go back to Stock OS!
+----------------------------
+In some cases, some RG405M devices have a different eMMC parition configuration or different firmware configuration. When flashing this firmware on those specific devices, this can cause the device to fail to boot. 
+In this case, you will need to use the Black-Seraph RG405M unbricking tool to return to stock firmware but with the desired partition configuration. Once this is done, you can then flash the GammaOS safely, or stay on StockOS. 
+
+Download the unbricker files from Black-Seraphs Patreon: https://www.patreon.com/posts/anbernic-rg405m-81427437
+Video guide here to restore to stock firmware: https://www.youtube.com/watch?v=fT6kulEfWXo
+
+[![Anbernic RG405M Flash back to stock / unbricking guide](https://i.imgur.com/rZg9moi.png)](https://www.youtube.com/watch?v=fT6kulEfWXo "Anbernic RG405M Flash back to stock / unbricking guide")
+
+Flashing the custom firmware:
+- Enable USB Debugging on the RG405M: https://developer.android.com/studio/debug/dev-options
+- Close all command prompt windows from before
+- Connect your RG405M to your PC via USB cable while booted into Android, open a command prompt window, and issue the following command: adb reboot fastboot
+- You will now be booted into fastbootd mode, ensure that you see the fastbootd text on your RG405M before proceeding
+- Issue the following command (ignore any errors): fastboot format metadata
+- Issue the following command (ignore any errors): fastboot -w
+- Close all command prompt windows from before
+- Navigate to your extracted GammaOS folder
+- Open the flashpartitions.bat script, it will begin flashing the firmware. This step can take up to 10 minutes so be patient
+- When the flashing script is complete, the command prompt window will close itself, you can now reboot your RG405M by pressing the power button once
+- Your device will reboot, and will stay at the Anbernic logo for about 2 minutes before booting into the new firmware for the first time. Reboots after this will be much quicker. Do not be alarmed by the debug messages warning about unlock and skip verify, this is normal after unlocking the bootloader
+- Congratulations, you are now on GammaOS! 
