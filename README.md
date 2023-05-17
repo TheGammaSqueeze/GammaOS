@@ -6,7 +6,7 @@ LineageOS based firmware for Anbernic Unisoc T618 devices
 
 Download and instructions
 ----------------------------
-Link coming soon
+- (v1.1) https://drive.google.com/file/d/1uvRA1bCS8Kuy5aXtkRIWINPZxCZbiz0X/view?usp=share_link
 
 Instructions:
 - [Brand new install (Flashing from Stock Anbernic Firmware. Bootloader never unlocked before, flashing via fastbootd)](https://github.com/TheGammaSqueeze/GammaOS#instructions---brand-new-install-flashing-from-stock-anbernic-firmware-bootloader-never-unlocked-before-flashing-via-fastbootd)
