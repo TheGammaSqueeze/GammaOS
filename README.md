@@ -60,7 +60,7 @@ What's missing:
 Instructions - Brand new install (Flashing from Stock Anbernic Firmware. Bootloader never unlocked before, flashing via fastbootd)
 ----------------------------
 
-Skip this section if you have either 1) Already installed GammaOS 2) Unlocked your bootloader but are still on stock firmware. - Go to instructions for Upgrading to v1.1 from GammaOS v1 / Stock OS with unlocked bootloader.
+Skip this section if you have either 1) Already installed GammaOS 2) Unlocked your bootloader but are still on stock firmware. - Go to instructions for [Upgrading to v1.1 from GammaOS v1.0 / Stock OS with unlocked bootloader](https://github.com/TheGammaSqueeze/GammaOS#instructions---upgrading-to-v11-from-gammaos-v10--stock-os-with-unlocked-bootloader)
 
 Video guide here for a brand new install from stock firmware: https://www.youtube.com/watch?v=PdE9vNRRjUI
 
@@ -132,4 +132,4 @@ Video guide here to restore to stock firmware: https://www.youtube.com/watch?v=f
 
 [![Anbernic RG405M Flash back to stock / unbricking guide](https://i.imgur.com/rZg9moi.png)](https://www.youtube.com/watch?v=fT6kulEfWXo "Anbernic RG405M Flash back to stock / unbricking guide")
 
-Flashing the custom firmware: Follow the instructions for Upgrading to v1.1 from GammaOS v1.0 / Stock OS with unlocked bootloader.
+Flashing the custom firmware: Follow the instructions for [Upgrading to v1.1 from GammaOS v1.0 / Stock OS with unlocked bootloader](https://github.com/TheGammaSqueeze/GammaOS#instructions---upgrading-to-v11-from-gammaos-v10--stock-os-with-unlocked-bootloader)
