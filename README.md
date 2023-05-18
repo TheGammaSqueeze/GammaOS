@@ -94,6 +94,7 @@ Flashing the custom firmware:
 - When the flashing script is complete, the command prompt window will close itself after 60 seconds, you can now reboot your RG405M by pressing the power button once
 - Your device will reboot, and will stay at the Anbernic logo for about 2 minutes before booting into the new firmware for the first time. Reboots after this will be much quicker. Do not be alarmed by the debug messages warning about unlock and skip verify, this is normal after unlocking the bootloader
 - Congratulations, you are now on GammaOS! 
+- If you are booting back into the stock firmware and not GammaOS, then you may have an incompatible partition layout. You can verify this by looking for failures in the log.txt file in your GammaOS folder. To overcome this, you will need to flash the stock firmware with the Black-Seraph unbricker and flash GammaOS again. Follow these instructions: [Help! My device is no longer booting! Or I want to go back to Stock OS!](https://github.com/TheGammaSqueeze/GammaOS#help-my-device-is-no-longer-booting-or-i-want-to-go-back-to-stock-os)
 
 
 Instructions - Upgrading to v1.1 from GammaOS v1.0 / Stock OS with unlocked bootloader
