@@ -147,7 +147,7 @@ Flashing the Stock OS:
 - Connect your USB cable to your RG405M and plugin into your PC if not done already. 
 - Now hold down the following buttons on your RG405M: POWER + VOL DOWN + HOME/BACK, and don't let go until you see a progress bar that mentions Downloading appear on the flashing tool on your pc. When you see this progress bar, you can let go of the buttons.
 - Wait for up to 10 minutes for the flashing process to complete. The process is complete when you see the following in the flashing tool: _POWEROFF_ - Finish - PASSED.
-- You can now unplug the USB cable, and power on your RG405M. 
+- You can now unplug the USB cable, and power on your RG405M by holding down the POWER + VOL DOWN buttons until you see the Anbernic logo. 
 - You are now back on stock firmware!
 
 Flashing the custom firmware (optional if you want GammaOS): 
