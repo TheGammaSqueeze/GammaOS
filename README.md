@@ -133,4 +133,22 @@ Video guide here to restore to stock firmware: https://www.youtube.com/watch?v=f
 
 [![Anbernic RG405M Flash back to stock / unbricking guide](https://i.imgur.com/rZg9moi.png)](https://www.youtube.com/watch?v=fT6kulEfWXo "Anbernic RG405M Flash back to stock / unbricking guide")
 
-Flashing the custom firmware: Follow the instructions for [Upgrading to v1.1 from GammaOS v1.0 / Stock OS with unlocked bootloader](https://github.com/TheGammaSqueeze/GammaOS#instructions---upgrading-to-v11-from-gammaos-v10--stock-os-with-unlocked-bootloader)
+
+Prerequisites:
+- Download all 13 Anbernic-RG405M-V1.15-Unbricker.7z.xxx files from the Black-Seraph Patreon.
+- Extract the Anbernic-RG405M-V1.15-Unbricker.7z.001 file to a folder using a tool such as 7-zip.
+- (Skip if done before) Install Unisoc Drivers (included in the release zip in the UnisocDrivers folder) - run the DPInst64.exe program in your relevant OS folder. (Win10 drivers will also work on Win11. Also available here: https://github.com/TheGammaSqueeze/GammaOS/releases/download/GammaOS_v1_RG405M/UnisocDrivers.zip)
+
+Flashing the Stock OS:
+- In the folder that you extracted the unbricking files to, open the UpgradeDowngrade.exe application.
+- Click the top left Cogwheel/Load Packet icon, this will open an Open file prompt. Navigate to the folder that you extracted the unbricking files to, and open the Firmware folder. Select the Firmware.pac file.
+- The tool will now start unpacking the firmware files, this make take up to 5 minutes and the tool may be unresponsive during this time. You will see a progress bar at the bottom of the application.
+- Once loaded, you will see the text next to the question mark icon: PACKET: RG405M -- Version V1.15. At this point, press the Play/Start Downloading icon.
+- Connect your USB cable to your RG405M and plugin into your PC if not done already. 
+- Now hold down the following buttons on your RG405M: POWER + VOL DOWN + HOME/BACK, and don't let go until you see a progress bar that mentions Downloading appear on the flashing tool on your pc. When you see this progress bar, you can let go of the buttons.
+- Wait for up to 10 minutes for the flashing process to complete. The process is complete when you see the following in the flashing tool: _POWEROFF_ - Finish - PASSED.
+- You can now unplug the USB cable, and power on your RG405M. 
+- You are now back on stock firmware!
+
+Flashing the custom firmware (optional if you want GammaOS): 
+Follow the instructions for [Upgrading to v1.1 from GammaOS v1.0 / Stock OS with unlocked bootloader](https://github.com/TheGammaSqueeze/GammaOS#instructions---upgrading-to-v11-from-gammaos-v10--stock-os-with-unlocked-bootloader)
