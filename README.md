@@ -11,12 +11,12 @@ Use GammaOS if you require Google services.
 
 Download and instructions
 ----------------------------
-- (GammaOS Lite v1.1) 
+- (GammaOS Lite v1.1) https://drive.google.com/file/d/1jJwjZ3BNlwURfkzsjOF87T0CDhWi-ZWf/view?usp=drive_link
 
 Instructions:
-- [Brand new install (Flashing from Stock Anbernic Firmware. Bootloader never unlocked before, flashing via fastbootd)](https://github.com/TheGammaSqueeze/GammaOS#instructions---brand-new-install-flashing-from-stock-anbernic-firmware-bootloader-never-unlocked-before-flashing-via-fastbootd)
-- [Upgrading to GammaOS Lite v1.1 from GammaOS / Stock OS with unlocked bootloader](https://github.com/TheGammaSqueeze/GammaOS#instructions---upgrading-to-v11-from-gammaos-v10--stock-os-with-unlocked-bootloader)
-- [Help! My device is no longer booting! Or I want to go back to Stock OS!](https://github.com/TheGammaSqueeze/GammaOS#help-my-device-is-no-longer-booting-or-i-want-to-go-back-to-stock-os)
+- [Brand new install (Flashing from Stock Anbernic Firmware. Bootloader never unlocked before, flashing via fastbootd)](https://github.com/TheGammaSqueeze/GammaOS/tree/GammaOSLite#instructions---brand-new-install-flashing-from-stock-anbernic-firmware-bootloader-never-unlocked-before-flashing-via-fastbootd)
+- [Upgrading to GammaOS Lite v1.1 from GammaOS / Stock OS with unlocked bootloader](https://github.com/TheGammaSqueeze/GammaOS/tree/GammaOSLite#instructions---upgrading-to-gammaos-lite-v11-from-gammaos--stock-os-with-unlocked-bootloader)
+- [Help! My device is no longer booting! Or I want to go back to Stock OS!](https://github.com/TheGammaSqueeze/GammaOS/tree/GammaOSLite#help-my-device-is-no-longer-booting-or-i-want-to-go-back-to-stock-os)
 
 Credits
 ----------------------------
@@ -66,7 +66,7 @@ What's missing:
 Instructions - Brand new install (Flashing from Stock Anbernic Firmware. Bootloader never unlocked before, flashing via fastbootd)
 ----------------------------
 
-Skip this section if you have either 1) Already installed GammaOS Lite 2) Unlocked your bootloader but are still on stock firmware. - Go to instructions for [Upgrading to v1.1 from GammaOS v1.0 / Stock OS with unlocked bootloader](https://github.com/TheGammaSqueeze/GammaOS#instructions---upgrading-to-v11-from-gammaos-v10--stock-os-with-unlocked-bootloader)
+Skip this section if you have either 1) Already installed GammaOS Lite 2) Unlocked your bootloader but are still on stock firmware. - Go to instructions for [Upgrading to GammaOS Lite v1.1 from GammaOS / Stock OS with unlocked bootloader](https://github.com/TheGammaSqueeze/GammaOS/tree/GammaOSLite#instructions---upgrading-to-gammaos-lite-v11-from-gammaos--stock-os-with-unlocked-bootloader)
 
 Video guide here for a brand new install from stock firmware: https://www.youtube.com/watch?v=PdE9vNRRjUI
 
@@ -106,6 +106,8 @@ Flashing the custom firmware:
 Instructions - Upgrading to GammaOS Lite v1.1 from GammaOS / Stock OS with unlocked bootloader
 ----------------------------
 
+Following these steps will result in a factory reset if you are not already on GammaOS Lite, please make sure to back up all your data before proceeding.
+
 Video guide here for upgrading your firmware from GammaOS / Modified Stock OS: https://youtu.be/HQuK0o4PrDo
 
 [![Upgrading GammaOS to v1.1 - Anbernic RG405M Custom Firmware CFW](https://i.imgur.com/EgOKl3J.png)](https://www.youtube.com/watch?v=HQuK0o4PrDo "Upgrading GammaOS to v1.1 - Anbernic RG405M Custom Firmware CFW")
@@ -123,7 +125,7 @@ Flashing the custom firmware:
 - You will now see the fastbootd menu, with the red fastbootd text at the top of the screen on your RG405M.
 - Navigate to your extracted GammaOSLite folder
 - Open the FlashPartitions.bat script (or the flashpartitions_with_stock_anbernic_gpu_driver.bat script if you wish to use the stock Anbernic GPU drivers), it will begin flashing the firmware. This step can take up to 10 minutes so be patient. When the flashing script is complete, the command prompt window will close itself after 60 seconds.
-- Open the EraseUserData.bat script, it will begin factory resetting your device in preperation for GammaOS Lite. This step can take up to 5 minutes so be patient. When the script is complete, the command prompt window will close itself after 60 seconds.
+- (Skip if already on GammaOS Lite) Open the EraseUserData.bat script, it will begin factory resetting your device in preperation for GammaOS Lite. This step can take up to 5 minutes so be patient. When the script is complete, the command prompt window will close itself after 60 seconds.
 - Once the above is complete, press the power button once to reboot your device.
 - Your device will reboot, and will stay at the Anbernic logo for about 2 minutes before booting into the new firmware for the first time. Reboots after this will be much quicker. Do not be alarmed by the debug messages warning about unlock and skip verify, this is normal after unlocking the bootloader
 - Congratulations, you are now on the latest GammaOS Lite! 
@@ -157,4 +159,4 @@ Flashing the Stock OS:
 - You are now back on stock firmware!
 
 Flashing the custom firmware (optional if you want GammaOS Lite), please follow instructions closely for those on Stock OS: 
-Follow the instructions for [Upgrading to GammaOS Lite v1.1 from GammaOS / Stock OS with unlocked bootloader](https://github.com/TheGammaSqueeze/GammaOS#instructions---upgrading-to-v11-from-gammaos-v10--stock-os-with-unlocked-bootloader)
+Follow the instructions for [Upgrading to GammaOS Lite v1.1 from GammaOS / Stock OS with unlocked bootloader](https://github.com/TheGammaSqueeze/GammaOS/tree/GammaOSLite#instructions---upgrading-to-gammaos-lite-v11-from-gammaos--stock-os-with-unlocked-bootloader)
