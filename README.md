@@ -1,23 +1,28 @@
-# Anbernic RG405M - GammaOS Custom Firmware - v1.1
+# Anbernic RG405M - GammaOS Lite Custom Firmware - v1.1
 
 
-LineageOS based firmware for Anbernic Unisoc T618 devices
+LineageOS based firmware for Anbernic Unisoc T618 devices.
+All Google services and additional unused components removed for extra performance headroom.
+Uses Retroid Pocket 3+ GPU Drivers for extra performance boost.
 
+*If you are already on GammaOS, GammaOs Lite will require a factory reset*
+
+Use GammaOS if you require Google services. 
 
 Download and instructions
 ----------------------------
-- (v1.1) https://drive.google.com/file/d/1uvRA1bCS8Kuy5aXtkRIWINPZxCZbiz0X/view?usp=share_link
+- (GammaOS Lite v1.1) 
 
 Instructions:
 - [Brand new install (Flashing from Stock Anbernic Firmware. Bootloader never unlocked before, flashing via fastbootd)](https://github.com/TheGammaSqueeze/GammaOS#instructions---brand-new-install-flashing-from-stock-anbernic-firmware-bootloader-never-unlocked-before-flashing-via-fastbootd)
-- [Upgrading to v1.1 from GammaOS v1.0 / Stock OS with unlocked bootloader](https://github.com/TheGammaSqueeze/GammaOS#instructions---upgrading-to-v11-from-gammaos-v10--stock-os-with-unlocked-bootloader)
+- [Upgrading to GammaOS Lite v1.1 from GammaOS / Stock OS with unlocked bootloader](https://github.com/TheGammaSqueeze/GammaOS#instructions---upgrading-to-v11-from-gammaos-v10--stock-os-with-unlocked-bootloader)
 - [Help! My device is no longer booting! Or I want to go back to Stock OS!](https://github.com/TheGammaSqueeze/GammaOS#help-my-device-is-no-longer-booting-or-i-want-to-go-back-to-stock-os)
 
 Credits
 ----------------------------
 TheGammaSqueeze - Author - https://github.com/TheGammaSqueeze/
 
-TacoPizza#4158 - Testing and Support
+TacoPizza#4158 - Logo, Boot animation, Testing and Support
 
 Andy Yan - Providing GSI builds: https://sourceforge.net/projects/andyyan-gsi/files/lineage-19.x/
 
@@ -25,6 +30,8 @@ Andy Yan - Providing GSI builds: https://sourceforge.net/projects/andyyan-gsi/fi
 
 Changelog
 ----------------------------
+- (v1.1 Lite) Initial release for GammaOS Lite, super debloated build with no GSF. Extra tweaks made for additional performance, using Retroid GPU drivers.
+
 - (v1.1) Update system base image to lineage-19.1-20230508-UNOFFICIAL-arm64_bgN.
 - (v1.1) Unlock full speed DDR memory frequency to 1866mhz for added performance boost.
 - (v1.1) Move Retroid Pocket 3+ graphics driver to separate experimental build. Reintroduce Anbernic graphics driver with added optimizations as default.
@@ -38,20 +45,19 @@ Changelog
 
 Information
 ----------------------------
-GammaOS is based on LineageOS 19.1 (Android 12). It provides a debloated and performance optimized experience for users who are looking to get the best out of their Anbernic RG405M.
+GammaOS Lite is based on LineageOS 19.1 (Android 12). It provides a debloated and performance optimized experience for users who are looking to get the best out of their Anbernic RG405M.
 
 Features:
-- Based on debloated and clean LineageOS 19.1 build, Android 12 for a smoother experience. Non-essential apps removed.
+- Based on debloated and clean LineageOS 19.1 build, Android 12 for a smoother experience. Non-essential apps removed. No Google Service Framework, no Play Store or Google apps.
 - Daijisho launcher as front-end, pre-configured with RetroArch for some systems. (Optimized settings for GB,GBC,GBA,NES,SNES,Genesis,PSX) (PSX will require a BIOS file to be supplied by you).
-- Play store & Aurora store included.
+- Aurora store included.
 - Adguard ad blocking included as default (can be disabled via Private DNS settings).
-- Magisk/root included (can be enabled after rebooting the device).
+- Magisk/root included.
 - 60hz refresh rate fix for display (stock is 61.2hz and can cause frame pacing issues with emulation).
 - Oversharpening display fixed.
 - Analog stick calibration for more tighter controls.
 - CPU, GPU, Memory now using performance governors for extra performance boost.
-- Optimized Anbernic GPU drivers.
-- Experimental GPU drivers provided for testing - taken from Retroid Pocket 3+.
+- Experimental GPU drivers taken from Retroid Pocket 3+. (Optimized Anbernic GPU drivers available as fallback)
 
 What's missing:
 - Built-in button to on-screen mapping software, alternative solutions can be found in app store.
@@ -60,14 +66,14 @@ What's missing:
 Instructions - Brand new install (Flashing from Stock Anbernic Firmware. Bootloader never unlocked before, flashing via fastbootd)
 ----------------------------
 
-Skip this section if you have either 1) Already installed GammaOS 2) Unlocked your bootloader but are still on stock firmware. - Go to instructions for [Upgrading to v1.1 from GammaOS v1.0 / Stock OS with unlocked bootloader](https://github.com/TheGammaSqueeze/GammaOS#instructions---upgrading-to-v11-from-gammaos-v10--stock-os-with-unlocked-bootloader)
+Skip this section if you have either 1) Already installed GammaOS Lite 2) Unlocked your bootloader but are still on stock firmware. - Go to instructions for [Upgrading to v1.1 from GammaOS v1.0 / Stock OS with unlocked bootloader](https://github.com/TheGammaSqueeze/GammaOS#instructions---upgrading-to-v11-from-gammaos-v10--stock-os-with-unlocked-bootloader)
 
 Video guide here for a brand new install from stock firmware: https://www.youtube.com/watch?v=PdE9vNRRjUI
 
 [![Anbernic RG405M - Install GammaOS Custom Firmware v1](https://i3.ytimg.com/vi/PdE9vNRRjUI/maxresdefault.jpg)](https://www.youtube.com/watch?v=PdE9vNRRjUI "Anbernic RG405M - Install GammaOS Custom Firmware v1")
 
 Prerequisites:
-- Extract the GammaOS folder and its files before proceeding.
+- Extract the GammaOSLite folder and its files before proceeding.
 - ADB and Fastboot tools + drivers, ensure you install the Universal ADB Driver then reboot your computer: https://github.com/K3V1991/ADB-and-FastbootPlusPlus
 - Install Unisoc Drivers (included in the release zip in the UnisocDrivers folder) - run the DPInst64.exe program in your relevant OS folder. (Win10 drivers will also work on Win11. Also available here: https://github.com/TheGammaSqueeze/GammaOS/releases/download/GammaOS_v1_RG405M/UnisocDrivers.zip)
 - Enable USB Debugging on the RG405M: https://developer.android.com/studio/debug/dev-options
@@ -89,15 +95,15 @@ Unlocking bootloader:
 
 Flashing the custom firmware:
 - Close all command prompt windows from before
-- Navigate to your extracted GammaOS folder
-- Open the FlashPartitions.bat script, it will begin flashing the firmware. This step can take up to 10 minutes so be patient
+- Navigate to your extracted GammaOSLite folder
+- Open the FlashPartitions.bat script (or the flashpartitions_with_stock_anbernic_gpu_driver.bat script if you wish to use the stock Anbernic GPU drivers), it will begin flashing the firmware. This step can take up to 10 minutes so be patient
 - When the flashing script is complete, the command prompt window will close itself after 60 seconds, you can now reboot your RG405M by pressing the power button once
 - Your device will reboot, and will stay at the Anbernic logo for about 2 minutes before booting into the new firmware for the first time. Reboots after this will be much quicker. Do not be alarmed by the debug messages warning about unlock and skip verify, this is normal after unlocking the bootloader
-- Congratulations, you are now on GammaOS! 
-- If you are booting back into the stock firmware and not GammaOS, then you may have an incompatible partition layout. You can verify this by looking for failures in the log.txt file in your GammaOS folder. To overcome this, you will need to flash the stock firmware with the Black-Seraph unbricker and flash GammaOS again. Follow these instructions: [Help! My device is no longer booting! Or I want to go back to Stock OS!](https://github.com/TheGammaSqueeze/GammaOS#help-my-device-is-no-longer-booting-or-i-want-to-go-back-to-stock-os)
+- Congratulations, you are now on GammaOS Lite! 
+**- If you are booting back into the stock firmware and not GammaOS Lite, then you may have an incompatible partition layout. You can verify this by looking for failures in the log.txt file in your GammaOSLite folder. To overcome this, you will need to flash the stock firmware with the Black-Seraph unbricker and flash GammaOS Lite again. Follow these instructions: [Help! My device is no longer booting! Or I want to go back to Stock OS!](https://github.com/TheGammaSqueeze/GammaOS#help-my-device-is-no-longer-booting-or-i-want-to-go-back-to-stock-os)**
 
 
-Instructions - Upgrading to v1.1 from GammaOS v1.0 / Stock OS with unlocked bootloader
+Instructions - Upgrading to GammaOS Lite v1.1 from GammaOS / Stock OS with unlocked bootloader
 ----------------------------
 
 Video guide here for upgrading your firmware from GammaOS / Modified Stock OS: https://youtu.be/HQuK0o4PrDo
@@ -105,7 +111,7 @@ Video guide here for upgrading your firmware from GammaOS / Modified Stock OS: h
 [![Upgrading GammaOS to v1.1 - Anbernic RG405M Custom Firmware CFW](https://i.imgur.com/EgOKl3J.png)](https://www.youtube.com/watch?v=HQuK0o4PrDo "Upgrading GammaOS to v1.1 - Anbernic RG405M Custom Firmware CFW")
 
 Prerequisites:
-- Extract the GammaOS folder and its files before proceeding.
+- Extract the GammaOSLite folder and its files before proceeding.
 - (Skip if done before) ADB and Fastboot tools + drivers, ensure you install the Universal ADB Driver then reboot your computer: https://github.com/K3V1991/ADB-and-FastbootPlusPlus
 - (Skip if done before) Install Unisoc Drivers (included in the release zip in the UnisocDrivers folder) - run the DPInst64.exe program in your relevant OS folder. (Win10 drivers will also work on Win11. Also available here: https://github.com/TheGammaSqueeze/GammaOS/releases/download/GammaOS_v1_RG405M/UnisocDrivers.zip)
 - (Skip if done before - Stock OS only) Enable USB Debugging on the RG405M if on stock firmware: https://developer.android.com/studio/debug/dev-options
@@ -115,18 +121,18 @@ Flashing the custom firmware:
 - While booted into GammaOS, hold down the power button and choose the Restart option, then choose the Recovery option. (If on Stock OS, open a command prompt window, issue the command: adb reboot fastboot)
 - If you are on GammaOS, you will boot into a recovery screen, use the volume down button to navigate to the Enter Fastboot menu selection, press the power button once.
 - You will now see the fastbootd menu, with the red fastbootd text at the top of the screen on your RG405M.
-- Navigate to your extracted GammaOS folder
-- Open the FlashPartitions.bat script (or the experimental_flashpartitions_with_rp3_gpu_driver.bat script if you wish to try the unstable experimental Retroid drivers), it will begin flashing the firmware. This step can take up to 10 minutes so be patient. When the flashing script is complete, the command prompt window will close itself after 60 seconds.
-- (MANDATORY FOR STOCK OS USERS, Optional for GammaOS users if they want to factory reset) - Open the EraseUserData.bat script, it will begin factory resetting your device in preperation for GammaOS. This step can take up to 5 minutes so be patient. When the script is complete, the command prompt window will close itself after 60 seconds.
+- Navigate to your extracted GammaOSLite folder
+- Open the FlashPartitions.bat script (or the flashpartitions_with_stock_anbernic_gpu_driver.bat script if you wish to use the stock Anbernic GPU drivers), it will begin flashing the firmware. This step can take up to 10 minutes so be patient. When the flashing script is complete, the command prompt window will close itself after 60 seconds.
+- Open the EraseUserData.bat script, it will begin factory resetting your device in preperation for GammaOS Lite. This step can take up to 5 minutes so be patient. When the script is complete, the command prompt window will close itself after 60 seconds.
 - Once the above is complete, press the power button once to reboot your device.
 - Your device will reboot, and will stay at the Anbernic logo for about 2 minutes before booting into the new firmware for the first time. Reboots after this will be much quicker. Do not be alarmed by the debug messages warning about unlock and skip verify, this is normal after unlocking the bootloader
-- Congratulations, you are now on the latest GammaOS! 
+- Congratulations, you are now on the latest GammaOS Lite! 
 
 
 Help! My device is no longer booting! Or I want to go back to Stock OS!
 ----------------------------
 In some cases, some RG405M devices have a different eMMC parition configuration or different firmware configuration. When flashing this firmware on those specific devices, this can cause the device to fail to boot. 
-In this case, you will need to use the Black-Seraph RG405M unbricking tool to return to stock firmware but with the desired partition configuration. Once this is done, you can then flash the GammaOS safely, or stay on StockOS. 
+In this case, you will need to use the Black-Seraph RG405M unbricking tool to return to stock firmware but with the desired partition configuration. Once this is done, you can then flash the GammaOS Lite safely, or stay on StockOS. 
 
 Download the unbricker files from Black-Seraphs Patreon: https://www.patreon.com/posts/anbernic-rg405m-81427437
 Video guide here to restore to stock firmware: https://www.youtube.com/watch?v=fT6kulEfWXo
@@ -150,5 +156,5 @@ Flashing the Stock OS:
 - You can now unplug the USB cable, and power on your RG405M by holding down the POWER + VOL DOWN buttons until you see the Anbernic logo. If you unlocked your bootloader previously, this will persist and you'll still see the debug unlocked text on startup. This is normal.
 - You are now back on stock firmware!
 
-Flashing the custom firmware (optional if you want GammaOS), please follow instructions closely for those on Stock OS: 
-Follow the instructions for [Upgrading to v1.1 from GammaOS v1.0 / Stock OS with unlocked bootloader](https://github.com/TheGammaSqueeze/GammaOS#instructions---upgrading-to-v11-from-gammaos-v10--stock-os-with-unlocked-bootloader)
+Flashing the custom firmware (optional if you want GammaOS Lite), please follow instructions closely for those on Stock OS: 
+Follow the instructions for [Upgrading to GammaOS Lite v1.1 from GammaOS / Stock OS with unlocked bootloader](https://github.com/TheGammaSqueeze/GammaOS#instructions---upgrading-to-v11-from-gammaos-v10--stock-os-with-unlocked-bootloader)
