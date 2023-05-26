@@ -140,7 +140,7 @@ Prerequisites:
 - (Skip if done before) Install Unisoc Drivers (included in the release zip in the UnisocDrivers folder) - run the DPInst64.exe program in your relevant OS folder. (Win10 drivers will also work on Win11. Also available here: https://github.com/TheGammaSqueeze/GammaOS/releases/download/GammaOS_v1_RG405M/UnisocDrivers.zip)
 
 Flashing the Stock OS:
-- In the folder that you extracted the unbricking files to, open the UpgradeDowngrade.exe application.
+- In the folder that you extracted the unbricking files to, open the UpgradeDownload.exe application.
 - Click the top left Cogwheel/Load Packet icon, this will open an Open file prompt. Navigate to the folder that you extracted the unbricking files to, and open the Firmware folder. Select the Firmware.pac file.
 - The tool will now start unpacking the firmware files, this make take up to 5 minutes and the tool may be unresponsive during this time. You will see a progress bar at the bottom of the application.
 - Once loaded, you will see the text next to the question mark icon: PACKET: RG405M -- Version V1.15. At this point, press the Play/Start Downloading icon.
