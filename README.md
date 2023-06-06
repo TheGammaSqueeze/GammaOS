@@ -3,6 +3,8 @@
 
 LineageOS based firmware for Anbernic Unisoc T618 devices
 
+Like my work and want to buy me a coffee? Feel free to buy one here: https://ko-fi.com/thegammasqueeze
+
 
 Download and instructions
 ----------------------------
