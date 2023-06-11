@@ -34,6 +34,7 @@ Features:
 - Experimental GPU drivers taken from Retroid Pocket 3+.
 - L2/R2 fixed for apps and games with issues with those buttons. Change between XBOX and NS button layout by holding L3+L1+R1. Settings saved across reboots.
 - Toggle between performance modes by holding down R3+L1+R1. Options are: Max Performance (everything set to max frequency, uses the most battery life), Normal Performance (scales frequency according to load), Power Save (lowers all frequencies to minimum for max battery life, useful for GBA and below). Recommend enabling threaded video in RetroArch for Power Save mode, or change emulators to less demanding ones. 
+- Adjust screen brightness by holding home/back button and using the right analog stick UP/DOWN to adjust
 
 What's missing:
 - Built-in button to on-screen mapping software, alternative solutions can be found in app store.
