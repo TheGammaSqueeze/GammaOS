@@ -9,8 +9,8 @@
 
 Download and instructions
 ----------------------------
-- (v1.2.1 including Google Services and Play Store)
-- (v1.2.1 Lite excluding Google Service and Play Store)
+- (v1.2.1 including Google Services and Play Store) https://drive.google.com/file/d/1iCcESU825gh--hqey0Wf6ob7jpcLxT2x/view?usp=sharing
+- (v1.2.1 Lite excluding Google Service and Play Store) https://drive.google.com/file/d/1z52yKsDMrcerMYCN6bd2xzomUqnM5a95/view?usp=sharing
 
 Instructions:
 - [Brand new install (Flashing from Stock Anbernic Firmware. Bootloader never unlocked before, flashing via fastbootd)](https://github.com/TheGammaSqueeze/GammaOS#instructions---brand-new-install-flashing-from-stock-anbernic-firmware-bootloader-never-unlocked-before-flashing-via-fastbootd)
