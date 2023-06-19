@@ -12,8 +12,10 @@
 
 Download and instructions
 ----------------------------
-- GammaOS Full (Includes Google services and Play store) https://github.com/TheGammaSqueeze/GammaOS/releases
-- GammaOS Lite (No Google Services) https://github.com/TheGammaSqueeze/GammaOS/releases
+- GammaOS v1.3 Full (Includes Google services and Play store) https://github.com/TheGammaSqueeze/GammaOS/releases
+
+  
+- GammaOS Lite v1.3 (No Google Services) https://github.com/TheGammaSqueeze/GammaOS/releases
 
 Instructions:
 - [Brand new install (Flashing from Stock Anbernic Firmware. Bootloader never unlocked before, flashing via fastbootd)](https://github.com/TheGammaSqueeze/GammaOS#instructions---brand-new-install-flashing-from-stock-anbernic-firmware-bootloader-never-unlocked-before-flashing-via-fastbootd)
