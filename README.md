@@ -64,6 +64,7 @@ Changelog
 - (v1.3) Include ALL RetroArch cores in GammaOS. Updated defaults in Daijisho. (New installs only)
 - (v1.3) Enabled threaded video by default in RetroArch (New installs only)
 - (v1.3) Fix for some errors with autoscaling memory freq, and android phone subsystem crashing
+- (v1.3) Added some homebrew roms in the Internal Storage/ROMS folder for new installs
 -------
 - (v1.3) Toggle between performance modes by holding down R3+L1+R1. Options are: Max Performance (everything set to max frequency, uses the most battery life), Normal Performance (scales frequency according to load), Power Save (lowers all frequencies to minimum for max battery life, useful for GBA and below). Recommend enabling threaded video in RetroArch for Power Save mode, or change emulators to less demanding ones. 
 - (v1.3) Add persistence between reboots for XBOX or NS button layout selection.
