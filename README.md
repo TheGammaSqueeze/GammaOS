@@ -6,13 +6,14 @@
 - LineageOS based firmware for Anbernic Unisoc T618 devices
 - Uses Retroid Pocket 3+ GPU Drivers for extra performance boost.
 - Includes L2/R2 fixes and other enhancements.
+- GammaOS includes Google Services and Play Store. GammaOS Lite excludes Google apps and services for extra performance headroom.
 
 - Like my work and want to buy me a coffee? Feel free to buy one here: https://ko-fi.com/thegammasqueeze
 
 
 Download and instructions
 ----------------------------
-- GammaOS v1.3 Full (Includes Google services and Play store) https://github.com/TheGammaSqueeze/GammaOS/releases
+- GammaOS v1.3 (Includes Google services and Play store) https://github.com/TheGammaSqueeze/GammaOS/releases
 
   
 - GammaOS Lite v1.3 (No Google Services) https://github.com/TheGammaSqueeze/GammaOS/releases
