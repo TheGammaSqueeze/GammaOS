@@ -161,8 +161,8 @@ Help! My device is no longer booting! Or I want to go back to Stock OS!
 In some cases, some RG405M/RG505 devices have a different eMMC parition configuration or different firmware configuration. When flashing this firmware on those specific devices, this can cause the device to fail to boot. 
 In this case, you will need to use the RG405M/RG505 unbricking tool to return to stock firmware but with the desired partition configuration. Once this is done, you can then flash the GammaOS safely, or stay on StockOS. 
 
-RG405M Unbricker via Black-Seraphs Patreon: https://www.patreon.com/posts/anbernic-rg405m-81427437
-RG505 Unbricker: https://drive.google.com/file/d/1WNildo8TZDW6L4tzY9SDEjL3NhPGg_gG/view?usp=drive_link
+- RG405M Unbricker via Black-Seraphs Patreon: https://www.patreon.com/posts/anbernic-rg405m-81427437
+- RG505 Unbricker: https://drive.google.com/file/d/1WNildo8TZDW6L4tzY9SDEjL3NhPGg_gG/view?usp=drive_link
 
 Video guide here to restore to stock firmware: https://www.youtube.com/watch?v=fT6kulEfWXo
 
