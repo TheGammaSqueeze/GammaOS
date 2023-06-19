@@ -112,7 +112,7 @@ Unlocking bootloader:
 - Click "fastboot gadget" and connect.
 - Click Unlock.
 - On the device there will be a warning "Warning: Unlock device may erase user data. Press volume down button to confirm that. Press volume up button to cancel."
-- Press the Home / Back button on the RG405M/RG505 to proceed.
+- Press the Home / Back button on the RG405M/RG505 to proceed. DO NOT PRESS THE VOLUME DOWN BUTTON, only the back button on the front of the RG405M or at the right side of the RG505.
 - Wait for it to complete. The your RG405M/RG505 will display the message "Unlock bootloader success!"
 - Ensure that the Google Chrome window with the thegammasqueeze.github.io/subut-rehost site is now shut before proceeding, otherwise the next commands won't work
 - In your command prompt window, issue the following command: fastboot reboot fastboot
