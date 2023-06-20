@@ -1,13 +1,18 @@
-#!/bin/bash 
+#!/bin/bash
 
+set -e
+
+echo ---------------------------------------
+echo "GammaOS Lite v1.3 - Anbernic RG405M" |
+echo ---------------------------------------
 
 if ! [ -x "$(command -v fastboot)" ]; then
-   echo 'Error: fastboot is not installed,please install it !'
+   echo "ERROR: fastboot seems not installed, please install it!"
 fi
 
 echo "fastboot devices"
 fastboot devices
-fastboot devices   >>log.txt 2>&1
+fastboot devices >> log.txt 2>&1
 
 echo "fastboot flash vbmeta_a flash/vbmeta_custom.img"
 fastboot flash vbmeta_a flash/vbmeta_custom.img  >>log.txt 2>&1
@@ -24,7 +29,7 @@ fastboot flash boot_b flash/boot_custom.img  >>log.txt 2>&1
 echo "fastboot flash dtbo_a flash/dtbo_custom.img"
 fastboot flash dtbo_a flash/dtbo_custom.img  >>log.txt 2>&1
 
-echo "fastboot flash dtbo_b flash/dtbo_custom.img" 
+echo "fastboot flash dtbo_b flash/dtbo_custom.img"
 fastboot flash dtbo_b flash/dtbo_custom.img  >>log.txt 2>&1
 
 echo "fastboot flash vendor_boot_a flash/vendor_boot_custom.img"
@@ -43,10 +48,10 @@ echo "fastboot flash vendor flash/vendor_custom_rp3_driver.img"
 echo "This will take some time, please wait..."
 fastboot flash vendor flash/vendor_custom_rp3_driver.img  >>log.txt 2>&1
 
-echo "fastboot delete-logical-partition system_a-cow" 
+echo "fastboot delete-logical-partition system_a-cow"
 fastboot delete-logical-partition system_a-cow  >>log.txt 2>&1
 
-echo "fastboot delete-logical-partition system_b-cow" 
+echo "fastboot delete-logical-partition system_b-cow"
 fastboot delete-logical-partition system_b-cow  >>log.txt 2>&1
 
 echo "fastboot flash system flash/system_custom.img"
