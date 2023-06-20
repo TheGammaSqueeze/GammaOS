@@ -188,6 +188,7 @@ Flashing the Stock OS:
 - Wait for up to 10 minutes for the flashing process to complete. The process is complete when you see the following in the flashing tool: _POWEROFF_ - Finish - PASSED.
 - You can now unplug the USB cable, and power on your RG405M/RG505 by holding down the POWER + VOL DOWN buttons until you see the Anbernic logo. If you unlocked your bootloader previously, this will persist and you'll still see the debug unlocked text on startup. This is normal.
 - You are now back on stock firmware!
+- (Optional if you don't want to go back to GammaOS) To relock your bootloader, you will need to enable USB debugging, and issue the following command from a command prompt: adb reboot bootloader. Once you are rebooted into fastboot mode, issue the following command: fastboot flashing lock. Press the back/home button to proceed. Once complete, issue the following command: fastboot reboot.
 
 Flashing the custom firmware (optional if you want GammaOS), please follow instructions closely for those on Stock OS: 
 Follow the instructions for [Upgrading to v1.3 from GammaOS / Stock OS with unlocked bootloader](https://github.com/TheGammaSqueeze/GammaOS#instructions---upgrading-to-v13-from-gammaos--stock-os-with-unlocked-bootloader)
