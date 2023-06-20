@@ -3,7 +3,7 @@
 set -e
 
 echo ---------------------------------------
-echo "GammaOS Lite v1.3 - Anbernic RG405M" 
+echo "GammaOS Lite v1.3.1 - Anbernic RG505" 
 echo ---------------------------------------
 
 if ! [ -x "$(command -v fastboot)" ]; then
@@ -20,23 +20,23 @@ fastboot flash vbmeta_a flash/vbmeta_custom.img  >>log.txt 2>&1
 echo "fastboot flash vbmeta_b flash/vbmeta_custom.img"
 fastboot flash vbmeta_b flash/vbmeta_custom.img  >>log.txt 2>&1
 
-echo "fastboot flash boot_a flash/boot_custom.img"
-fastboot flash boot_a flash/boot_custom.img  >>log.txt 2>&1
+echo "fastboot flash boot_a flash/boot_custom_505.img"
+fastboot flash boot_a flash/boot_custom.img_505  >>log.txt 2>&1
 
-echo "fastboot flash boot_b flash/boot_custom.img"
-fastboot flash boot_b flash/boot_custom.img  >>log.txt 2>&1
+echo "fastboot flash boot_b flash/boot_custom_505.img"
+fastboot flash boot_b flash/boot_custom_505.img  >>log.txt 2>&1
 
-echo "fastboot flash dtbo_a flash/dtbo_custom.img"
-fastboot flash dtbo_a flash/dtbo_custom.img  >>log.txt 2>&1
+echo "fastboot flash dtbo_a flash/dtbo_custom_505.img"
+fastboot flash dtbo_a flash/dtbo_custom_505.img  >>log.txt 2>&1
 
-echo "fastboot flash dtbo_b flash/dtbo_custom.img"
-fastboot flash dtbo_b flash/dtbo_custom.img  >>log.txt 2>&1
+echo "fastboot flash dtbo_b flash/dtbo_custom_505.img"
+fastboot flash dtbo_b flash/dtbo_custom_505.img  >>log.txt 2>&1
 
-echo "fastboot flash vendor_boot_a flash/vendor_boot_custom.img"
-fastboot flash vendor_boot_a flash/vendor_boot_custom.img  >>log.txt 2>&1
+echo "fastboot flash vendor_boot_a flash/vendor_boot_custom_505.img"
+fastboot flash vendor_boot_a flash/vendor_boot_custom_505.img  >>log.txt 2>&1
 
-echo "fastboot flash vendor_boot_b flash/vendor_boot_custom.img"
-fastboot flash vendor_boot_b flash/vendor_boot_custom.img  >>log.txt 2>&1
+echo "fastboot flash vendor_boot_b flash/vendor_boot_custom_505.img"
+fastboot flash vendor_boot_b flash/vendor_boot_custom_505.img  >>log.txt 2>&1
 
 echo "fastboot delete-logical-partition vendor_a-cow"
 fastboot delete-logical-partition vendor_a-cow  >>log.txt 2>&1
@@ -44,9 +44,9 @@ fastboot delete-logical-partition vendor_a-cow  >>log.txt 2>&1
 echo "fastboot delete-logical-partition vendor_b-cow"
 fastboot delete-logical-partition vendor_b-cow  >>log.txt 2>&1
 
-echo "fastboot flash vendor flash/vendor_custom_rp3_driver.img"
+echo "fastboot flash vendor flash/vendor_custom_rp3_driver_505.img"
 echo "This will take some time, please wait..."
-fastboot flash vendor flash/vendor_custom_rp3_driver.img  >>log.txt 2>&1
+fastboot flash vendor flash/vendor_custom_rp3_driver_505.img  >>log.txt 2>&1
 
 echo "fastboot delete-logical-partition system_a-cow"
 fastboot delete-logical-partition system_a-cow  >>log.txt 2>&1
