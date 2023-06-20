@@ -104,6 +104,7 @@ Prerequisites:
 - ADB and Fastboot tools + drivers, ensure you install the Universal ADB Driver then reboot your computer: https://github.com/K3V1991/ADB-and-FastbootPlusPlus
 - Install Unisoc Drivers (included in the release zip in the UnisocDrivers folder) - run the DPInst64.exe program in your relevant OS folder. (Win10 drivers will also work on Win11. Also available here: https://github.com/TheGammaSqueeze/GammaOS/releases/download/GammaOS_v1_RG405M/UnisocDrivers.zip)
 - Enable USB Debugging on the RG405M/RG505: https://developer.android.com/studio/debug/dev-options
+- Please remove any SD card from your device before proceeding to avoid any potential issues when booting into recovery/fastboot mode.
 
 Unlocking bootloader:
 - Connect your RG405M/RG505 to your PC via USB cable while booted into Android, open a command prompt window, and issue the following command: adb reboot bootloader
@@ -143,8 +144,10 @@ Prerequisites:
 - (Skip if done before) ADB and Fastboot tools + drivers, ensure you install the Universal ADB Driver then reboot your computer: https://github.com/K3V1991/ADB-and-FastbootPlusPlus
 - (Skip if done before) Install Unisoc Drivers (included in the release zip in the UnisocDrivers folder) - run the DPInst64.exe program in your relevant OS folder. (Win10 drivers will also work on Win11. Also available here: https://github.com/TheGammaSqueeze/GammaOS/releases/download/GammaOS_v1_RG405M/UnisocDrivers.zip)
 - (Skip if done before - Stock OS only) Enable USB Debugging on the RG405M/RG505 if on stock firmware: https://developer.android.com/studio/debug/dev-options
+- Please remove any SD card from your device before proceeding to avoid any potential issues when booting into recovery/fastboot mode.
 
 Flashing the custom firmware:
+- Please remove any SD card from your device before proceeding to avoid any potential issues when booting into recovery/fastboot mode.
 - Connect your USB cable from the RG405M/RG505 to your PC.
 - While booted into GammaOS, hold down the power button and choose the Restart option, then choose the Recovery option. (If on Stock OS, open a command prompt window, issue the command: adb reboot fastboot)
 - If you are on GammaOS, you will boot into a recovery screen, use the volume down button to navigate to the Enter Fastboot menu selection, press the power button once.
