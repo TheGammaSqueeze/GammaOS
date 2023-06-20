@@ -36,7 +36,7 @@ Features:
 - CPU, GPU, Memory now using performance governors for extra performance boost.
 - Experimental GPU drivers taken from Retroid Pocket 3+.
 - L2/R2 fixed for apps and games with issues with those buttons. Change between XBOX and NS button layout by holding L3+L1+R1. Settings saved across reboots.
-- Toggle between performance modes by holding down R3+L1+R1. Options are: Max Performance (everything set to max frequency, uses the most battery life), Normal Performance (scales frequency according to load), Power Save (lowers all frequencies to minimum for max battery life, useful for GBA and below). Recommend enabling threaded video in RetroArch for Power Save mode, or change emulators to less demanding ones.
+- Toggle between performance modes by holding down R3+L1+R1. Options are: Max Performance (everything set to max frequency, uses the most battery life), Normal Performance (scales frequency according to load), Power Save (lowers all frequencies to minimum for max battery life, useful for GBA and below). Recommend enabling threaded video in RetroArch for Power Save mode, or change emulators to less demanding ones. Timelapse of Tetris playing for 24 hours on power saving mode: https://www.youtube.com/watch?v=wx2tqjy9iKY
 - SafetyNet fix, present as Pixel phone: for fixing TMNT etc (Activated by toggling Magisk > Settings > Enable Zygote and reboot your device)
 
 Other Information:
