@@ -3,7 +3,7 @@
 set -e
 
 echo ---------------------------------------
-echo "GammaOS Lite v1.3 - Anbernic RG405M" |
+echo "GammaOS Lite v1.3 - Anbernic RG405M" 
 echo ---------------------------------------
 
 if ! [ -x "$(command -v fastboot)" ]; then
