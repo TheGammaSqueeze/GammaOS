@@ -1,5 +1,5 @@
 # Anbernic RG405M / RG505
-# GammaOS + GammaOS Lite Custom Firmware - v1.3
+# GammaOS + GammaOS Lite Custom Firmware - v1.3.1
 
 
 
@@ -13,10 +13,7 @@
 
 Download and instructions
 ----------------------------
-- GammaOS v1.3 (Includes Google services and Play store) https://github.com/TheGammaSqueeze/GammaOS/releases
-
-  
-- GammaOS Lite v1.3 (No Google Services) https://github.com/TheGammaSqueeze/GammaOS/releases
+- GammaOS v1.3.1 download: https://github.com/TheGammaSqueeze/GammaOS/releases
 
 Instructions:
 - [Brand new install (Flashing from Stock Anbernic Firmware. Bootloader never unlocked before, flashing via fastbootd)](https://github.com/TheGammaSqueeze/GammaOS#instructions---brand-new-install-flashing-from-stock-anbernic-firmware-bootloader-never-unlocked-before-flashing-via-fastbootd)
@@ -53,7 +50,7 @@ What's missing:
 
 Changelog
 ----------------------------
-
+- (v1.3.1) Fix broken bluetooth on RG505, update vendor drivers to latest version
 - (v1.3) Adding support for the RG505. (inc. 60hz fix, analog fix)
 - (v1.3) Move to a unified single build for RG405M and RG505.
 - (v1.3) Update Daijisho to latest version
