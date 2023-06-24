@@ -21,7 +21,7 @@ echo "fastboot flash vbmeta_b flash/vbmeta_custom.img"
 fastboot flash vbmeta_b flash/vbmeta_custom.img  >>log.txt 2>&1
 
 echo "fastboot flash boot_a flash/boot_custom_505.img"
-fastboot flash boot_a flash/boot_custom.img_505  >>log.txt 2>&1
+fastboot flash boot_a flash/boot_custom_505.img  >>log.txt 2>&1
 
 echo "fastboot flash boot_b flash/boot_custom_505.img"
 fastboot flash boot_b flash/boot_custom_505.img  >>log.txt 2>&1
