@@ -1,5 +1,5 @@
 # Anbernic RG405M / RG505
-# GammaOS + GammaOS Lite Custom Firmware - v1.3.2
+# GammaOS + GammaOS Lite Custom Firmware - v1.3.3
 
 
 
@@ -13,7 +13,7 @@
 
 Download and instructions
 ----------------------------
-- GammaOS v1.3.2 download: https://github.com/TheGammaSqueeze/GammaOS/releases
+- GammaOS v1.3.3 download: https://github.com/TheGammaSqueeze/GammaOS/releases
 
 Instructions:
 - [Brand new install (Flashing from Stock Anbernic Firmware. Bootloader never unlocked before, flashing via fastbootd)](https://github.com/TheGammaSqueeze/GammaOS#instructions---brand-new-install-flashing-from-stock-anbernic-firmware-bootloader-never-unlocked-before-flashing-via-fastbootd)
@@ -50,6 +50,9 @@ What's missing:
 
 Changelog
 ----------------------------
+- (v1.3.3) Fix an issue with provisioning flag not being set and read correctly on some devices. Stops RetroArch and Daijisho settings from being reset to defaults, and stops long boot times for affected devices.
+- (v1.3.3) Add physical home button functionality to RG505.
+-------
 - (v1.3.2) Update controller configuration, now emulating an Xbox One S Wireless controller via bluetooth. Fixes compatibility with games such as COD, Diablo and Geforce Now.
 - (v1.3.2) Fix emulated bluetooth controller from waking up the device on button press.
 - (v1.3.2) Remove unused Anbernic retrogame_joypad and touch_joypad devices, make our Xbox controller the primary controller. Fixes issues with games that only work with Controller 1 input such as Nuclear Throne.
