@@ -104,7 +104,9 @@ Instructions - Brand new install (Flashing from Stock Anbernic Firmware. Bootloa
 
 Skip this section if you have either 1) Already installed GammaOS 2) Unlocked your bootloader but are still on stock firmware. - Go to instructions for [Upgrading to v1.3 from GammaOS / Stock OS with unlocked bootloader](https://github.com/TheGammaSqueeze/GammaOS#instructions---upgrading-to-v13-from-gammaos--stock-os-with-unlocked-bootloader)
 
-Video guide here for a brand new install from stock firmware (the same instructions apply to both RG405M and RG505): https://www.youtube.com/watch?v=PdE9vNRRjUI
+Video guide here for a brand new install from stock firmware (the same instructions apply to both RG405M and RG505): 
+- RG405M: https://www.youtube.com/watch?v=PdE9vNRRjUI
+- RG505: https://youtu.be/vMJKEG3CV-k
 
 [![Anbernic RG405M - Install GammaOS Custom Firmware v1](https://i3.ytimg.com/vi/PdE9vNRRjUI/maxresdefault.jpg)](https://www.youtube.com/watch?v=PdE9vNRRjUI "Anbernic RG405M - Install GammaOS Custom Firmware v1")
 
