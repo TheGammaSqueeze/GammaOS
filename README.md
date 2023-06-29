@@ -29,7 +29,7 @@ Features:
 - Daijisho launcher as front-end, pre-configured with RetroArch for some systems. (Optimized settings for GB,GBC,GBA,NES,SNES,Genesis,PSX) (BIOS files need to be supplied by you).
 - Aurora store included.
 - Adguard ad blocking included as default (can be disabled via Private DNS settings).
-- Magisk/root included.
+- Magisk/root included. Ignore any warning about additional setup required, this is a false flag. Magisk is working fine.
 - 60hz refresh rate fix for display (stock is 61.2hz and can cause frame pacing issues with emulation).
 - Oversharpening display fixed.
 - Analog stick calibration for more tighter controls.
@@ -37,7 +37,7 @@ Features:
 - Experimental GPU drivers taken from Retroid Pocket 3+.
 - L2/R2 fixed for apps and games with issues with those buttons. Change between XBOX and NS button layout by holding L3+L1+R1. Settings saved across reboots.
 - Toggle between performance modes by holding down R3+L1+R1. Options are: Max Performance (everything set to max frequency, uses the most battery life), Normal Performance (scales frequency according to load), Power Save (lowers all frequencies to minimum for max battery life, useful for GBA and below). Recommend enabling threaded video in RetroArch for Power Save mode, or change emulators to less demanding ones. Timelapse of Tetris playing for 24 hours on power saving mode: https://www.youtube.com/watch?v=wx2tqjy9iKY
-- SafetyNet fix, present as Pixel phone: for fixing TMNT etc (Activated by toggling Magisk > Settings > Enable Zygote and reboot your device)
+- SafetyNet fix, present as Pixel phone: for fixing TMNT etc (Activated by toggling Magisk > Settings > Enable Zygote and reboot your device). Ignore any warning about additional setup required, this is a false flag. Magisk is working fine.
 
 Other Information:
 - RetroArch hotkey: (RG405M) Home/Back button / (RG505) Select Button
