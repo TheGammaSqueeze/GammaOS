@@ -118,7 +118,7 @@ Flashing the custom firmware:
 - If you are on GammaOS, you will boot into a recovery screen, use the volume down button to navigate to the Enter Fastboot menu selection, press the power button once.
 - You will now see the fastbootd menu, with the red fastbootd text at the top of the screen on your RG405M/RG505.
 - Navigate to your extracted GammaOS/GammaOSLite folder
-- Open the 405-FlashPartitions.bat or 505-FlashPartitions.bat script depending on your device, it will begin flashing the firmware. This step can take up to 10 minutes so be patient. When the flashing script is complete, the command prompt window will close itself after 60 seconds.
+- Open the 405-FlashPartitions or 505-FlashPartitions file, depending on your device. Use the file with the .bat file type on Windows, and the .sh one on MacOS and Linux, and it will begin flashing the firmware. This step can take up to 10 minutes so be patient. When the flashing script is complete, the command prompt window will close itself after 60 seconds.
 - (MANDATORY FOR STOCK OS USERS OR IF YOU ARE SWITCHING BETWEEN GAMMAOS AND GAMMAOS LITE) - Open the EraseUserData.bat script, it will begin factory resetting your device in preperation for GammaOS. This step can take up to 10 minutes so be patient. When the script is complete, the command prompt window will close itself after 60 seconds.
 - Once the above is complete, press the power button once to reboot your device.
 - Your device will reboot, and will stay at the Anbernic logo for about 2 minutes before booting into the new firmware for the first time. Reboots after this will be much quicker. Do not be alarmed by the debug messages warning about unlock and skip verify, this is normal after unlocking the bootloader
