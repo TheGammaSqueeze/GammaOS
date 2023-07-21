@@ -72,11 +72,11 @@ The rest of the process is doable on Linux as well.
 
 Install Unisoc Drivers (included in the release zip in the UnisocDrivers folder) Then run the DPInst64.exe program in your relevant OS folder. (Win10 drivers will also work on Win11. Also available here: https://github.com/TheGammaSqueeze/GammaOS/releases/download/GammaOS_v1_RG405M/UnisocDrivers.zip)
 
-emove/rename any existing fastboot.exe application that exists on your PC to prevent issues with flashing such as the flashing stalling at vbmeta_a. Open a command prompt, type in the following command: where.exe fastboot.exe. This will show you where your fastboot.exe is being called from. Anything that is not in the C:\Program Files (x86)\ADB and Fastboot++\fastboot.exe location should be renamed to something else. Rename to something like oldfastboot.exe
+Remove/rename any existing fastboot.exe application that exists on your PC to prevent issues with flashing such as the flashing stalling at vbmeta_a. Open a command prompt, type in the following command: where.exe fastboot.exe. This will show you where your fastboot.exe is being called from. Anything that is not in the C:\Program Files (x86)\ADB and Fastboot++\fastboot.exe location should be renamed to something else. Rename to something like oldfastboot.exe
 
-On MacOS: https://teamandroid.com/how-to-install-adb-fastboot-mac-osx/
+**On MacOS**: https://teamandroid.com/how-to-install-adb-fastboot-mac-osx/
 
-The process on Linux differs from distro to distro. 
+The process **on Linux** differs from distro to distro. 
 
 On Arch, you can use the `android-sdk-platform-tools` from AUR. 
 
