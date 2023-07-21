@@ -82,6 +82,7 @@ On Arch, you can use the `android-sdk-platform-tools` from AUR.
 
 On Garuda, simply run `sudo pacman -Syu android-sdk-platform-tools` since it has Chaotic-AUR preinstalled.
 
+**On the Anbernic** device itself:
 - Enable USB Debugging on the RG405M/RG505: https://developer.android.com/studio/debug/dev-options
 - Please remove any SD card from your device before proceeding to avoid any potential issues when booting into recovery/fastboot mode.
 
