@@ -42,7 +42,7 @@ Features:
 
 Other Information:
 - RetroArch hotkey: (RG405M) Home/Back button / (RG505) Select Button
-- RetroArch menu toggle: (L3 + R3). Choosing Close Content option closes the game and goes back to Daijisho
+- RetroArch menu toggle: (L3 + R3). Choosing the `Close Content` option closes the game and goes back to Daijisho
 - RetroArch shortcuts (Hold hotkey down) + L1 = Slow Motion | L2 = Load State | R2 = Save State | R1 = Fast Forward | X = Show FPS | Y = Screenshot
 
 What's missing:
@@ -63,15 +63,32 @@ The same instructions apply to both RG405M and RG505, use RG405M-FlashPartitions
 [![Anbernic RG405M/RG505 - Install GammaOS Custom Firmware](https://i3.ytimg.com/vi/vMJKEG3CV-k/maxresdefault.jpg)](https://www.youtube.com/watch?v=vMJKEG3CV-k "Anbernic RG405M/RG505 - Install GammaOS Custom Firmware")
 
 Prerequisites:
+- Currently, a Windows or MacOS installation to [unlock the bootloader.](https://github.com/TheGammaSqueeze/GammaOS/issues/12)
+The rest of the process is doable on Linux as well.
 - Extract the GammaOS/GammaOSLite folder and its files before proceeding.
-- ADB and Fastboot tools + drivers, ensure you install the Universal ADB Driver then reboot your computer: https://github.com/K3V1991/ADB-and-FastbootPlusPlus
-- Install Unisoc Drivers (included in the release zip in the UnisocDrivers folder) - run the DPInst64.exe program in your relevant OS folder. (Win10 drivers will also work on Win11. Also available here: https://github.com/TheGammaSqueeze/GammaOS/releases/download/GammaOS_v1_RG405M/UnisocDrivers.zip)
+- Get ADB and Fastboot tools + drivers.
+  
+**On Windows**, ensure you install the Universal ADB Driver also, and then reboot your computer: https://github.com/K3V1991/ADB-and-FastbootPlusPlus
+
+Install Unisoc Drivers (included in the release zip in the UnisocDrivers folder) Then run the DPInst64.exe program in your relevant OS folder. (Win10 drivers will also work on Win11. Also available here: https://github.com/TheGammaSqueeze/GammaOS/releases/download/GammaOS_v1_RG405M/UnisocDrivers.zip)
+
+Remove/rename any existing fastboot.exe application that exists on your PC to prevent issues with flashing such as the flashing stalling at vbmeta_a. Open a command prompt, type in the following command: where.exe fastboot.exe. This will show you where your fastboot.exe is being called from. Anything that is not in the C:\Program Files (x86)\ADB and Fastboot++\fastboot.exe location should be renamed to something else. Rename to something like oldfastboot.exe
+
+**On MacOS**: https://teamandroid.com/how-to-install-adb-fastboot-mac-osx/
+
+The process **on Linux** differs from distro to distro. 
+
+On Arch, you can use the `android-sdk-platform-tools` from AUR. 
+
+On Garuda, simply run `sudo pacman -Syu android-sdk-platform-tools` since it has Chaotic-AUR preinstalled.
+
+**On the Anbernic** device itself:
 - Enable USB Debugging on the RG405M/RG505: https://developer.android.com/studio/debug/dev-options
 - Please remove any SD card from your device before proceeding to avoid any potential issues when booting into recovery/fastboot mode.
-- Remove/rename any existing fastboot.exe application that exists on your PC to prevent issues with flashing such as the flashing stalling at vbmeta_a. Open a command prompt, type in the following command: where.exe fastboot.exe. This will show you where your fastboot.exe is being called from. Anything that is not in the C:\Program Files (x86)\ADB and Fastboot++\fastboot.exe location should be renamed to something else. Rename to something like oldfastboot.exe
 
 Unlocking bootloader:
-- Connect your RG405M/RG505 to your PC via USB cable while booted into Android, open a command prompt window, and issue the following command: adb reboot bootloader
+- Connect your RG405M/RG505 to your PC or Mac via USB cable while booted into Android, open a command prompt window, and issue the following command:
+  `adb reboot bootloader`
 - Your RG405M/RG505 will reboot, and you will see the text "fastboot mode" on the screen next to the Anbernic logo
 - Open this site in Google Chrome: https://thegammasqueeze.github.io/subut-rehost/
 - Click Connect.
