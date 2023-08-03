@@ -75,6 +75,7 @@ Install Unisoc Drivers (included in the release zip in the UnisocDrivers folder)
 Remove/rename any existing fastboot.exe application that exists on your PC to prevent issues with flashing such as the flashing stalling at vbmeta_a. Open a command prompt, type in the following command: where.exe fastboot.exe. This will show you where your fastboot.exe is being called from. Anything that is not in the C:\Program Files (x86)\ADB and Fastboot++\fastboot.exe location should be renamed to something else. Rename to something like oldfastboot.exe
 
 **On MacOS**: https://teamandroid.com/how-to-install-adb-fastboot-mac-osx/
+
 or via homebrew on **MacOS**:
 - `brew updates`
 - `brew install android-platform-tools`
