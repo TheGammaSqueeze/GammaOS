@@ -77,7 +77,7 @@ Remove/rename any existing fastboot.exe application that exists on your PC to pr
 **On MacOS**: https://teamandroid.com/how-to-install-adb-fastboot-mac-osx/
 
 or via homebrew on **MacOS**:
-- `brew updates`
+- `brew update`
 - `brew install android-platform-tools`
 
 The process **on Linux** differs from distro to distro.
