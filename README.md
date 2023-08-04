@@ -57,7 +57,7 @@ Skip this section if you have either 1) Already installed GammaOS 2) Unlocked yo
 Video guide here for a brand new install from stock firmware:
 - https://youtu.be/vMJKEG3CV-k
 
-The same instructions apply to both RG405M and RG505, use RG405M-FlashPartitions script for the RG405M. Use the home button during bootloader unlock for RG405M: 
+The same instructions apply to both RG405M and RG505, use RG405M-FlashPartitions script for the RG405M. Use the home button during bootloader unlock for RG405M:
 
 
 [![Anbernic RG405M/RG505 - Install GammaOS Custom Firmware](https://i3.ytimg.com/vi/vMJKEG3CV-k/maxresdefault.jpg)](https://www.youtube.com/watch?v=vMJKEG3CV-k "Anbernic RG405M/RG505 - Install GammaOS Custom Firmware")
@@ -67,7 +67,7 @@ Prerequisites:
 The rest of the process is doable on Linux as well.
 - Extract the GammaOS/GammaOSLite folder and its files before proceeding.
 - Get ADB and Fastboot tools + drivers.
-  
+
 **On Windows**, ensure you install the Universal ADB Driver also, and then reboot your computer: https://github.com/K3V1991/ADB-and-FastbootPlusPlus
 
 Install Unisoc Drivers (included in the release zip in the UnisocDrivers folder) Then run the DPInst64.exe program in your relevant OS folder. (Win10 drivers will also work on Win11. Also available here: https://github.com/TheGammaSqueeze/GammaOS/releases/download/GammaOS_v1_RG405M/UnisocDrivers.zip)
@@ -76,9 +76,13 @@ Remove/rename any existing fastboot.exe application that exists on your PC to pr
 
 **On MacOS**: https://teamandroid.com/how-to-install-adb-fastboot-mac-osx/
 
-The process **on Linux** differs from distro to distro. 
+or via homebrew on **MacOS**:
+- `brew update`
+- `brew install android-platform-tools`
 
-On Arch, you can use the `android-sdk-platform-tools` from AUR. 
+The process **on Linux** differs from distro to distro.
+
+On Arch, you can use the `android-sdk-platform-tools` from AUR.
 
 On Garuda, simply run `sudo pacman -Syu android-sdk-platform-tools` since it has Chaotic-AUR preinstalled.
 
@@ -109,7 +113,7 @@ Flashing the custom firmware:
 - Open the EraseUserData.bat script, it will begin factory resetting your device in preperation for GammaOS. This step can take up to 10 minutes so be patient. When the script is complete, the command prompt window will close itself after 60 seconds.
 - You can now reboot your RG405M/RG505 by pressing the power button once.
 - Your device will reboot, and will stay at the Anbernic logo for about 2 minutes before booting into the new firmware for the first time. Reboots after this will be much quicker. Do not be alarmed by the debug messages warning about unlock and skip verify, this is normal after unlocking the bootloader
-- Congratulations, you are now on GammaOS! 
+- Congratulations, you are now on GammaOS!
 - If you are booting back into the stock firmware and not GammaOS, then you may have an incompatible partition layout. You can verify this by looking for failures in the log.txt file in your GammaOS folder. To overcome this, you will need to flash the stock firmware with the unbricker tool and flash GammaOS again. Follow these instructions: [Help! My device is no longer booting! Or I want to go back to Stock OS!](https://github.com/TheGammaSqueeze/GammaOS#help-my-device-is-no-longer-booting-or-i-want-to-go-back-to-stock-os)
 
 
@@ -139,13 +143,13 @@ Flashing the custom firmware:
 - (MANDATORY FOR STOCK OS USERS OR IF YOU ARE SWITCHING BETWEEN GAMMAOS AND GAMMAOS LITE) - Open the EraseUserData.bat script, it will begin factory resetting your device in preperation for GammaOS. This step can take up to 10 minutes so be patient. When the script is complete, the command prompt window will close itself after 60 seconds.
 - Once the above is complete, press the power button once to reboot your device.
 - Your device will reboot, and will stay at the Anbernic logo for about 2 minutes before booting into the new firmware for the first time. Reboots after this will be much quicker. Do not be alarmed by the debug messages warning about unlock and skip verify, this is normal after unlocking the bootloader
-- Congratulations, you are now on the latest GammaOS! 
+- Congratulations, you are now on the latest GammaOS!
 
 
 Help! My device is no longer booting! Or I want to go back to Stock OS!
 ----------------------------
-In some cases, some RG405M/RG505 devices have a different eMMC parition configuration or different firmware configuration. When flashing this firmware on those specific devices, this can cause the device to fail to boot. 
-In this case, you will need to use the RG405M/RG505 unbricking tool to return to stock firmware but with the desired partition configuration. Once this is done, you can then flash the GammaOS safely, or stay on StockOS. 
+In some cases, some RG405M/RG505 devices have a different eMMC parition configuration or different firmware configuration. When flashing this firmware on those specific devices, this can cause the device to fail to boot.
+In this case, you will need to use the RG405M/RG505 unbricking tool to return to stock firmware but with the desired partition configuration. Once this is done, you can then flash the GammaOS safely, or stay on StockOS.
 
 - RG405M Unbricker via Black-Seraphs Patreon: https://www.patreon.com/posts/anbernic-rg405m-81427437
 - RG505 Unbricker: https://drive.google.com/file/d/1WNildo8TZDW6L4tzY9SDEjL3NhPGg_gG/view?usp=drive_link
@@ -157,7 +161,7 @@ Video guide here to restore to stock firmware: https://www.youtube.com/watch?v=f
 
 Prerequisites:
 - For the RG405M, Download all 13 Anbernic-RG405M-V1.15-Unbricker.7z.xxx files from the Black-Seraph Patreon. Extract the Anbernic-RG405M-V1.15-Unbricker.7z.001 file to a folder using a tool such as 7-zip.
-- For the RG505, download the unbricker from the Google Drive link and extract the folder. 
+- For the RG505, download the unbricker from the Google Drive link and extract the folder.
 - (Skip if done before) Install Unisoc Drivers (included in the release zip in the UnisocDrivers folder) - run the DPInst64.exe program in your relevant OS folder. (Win10 drivers will also work on Win11. Also available here: https://github.com/TheGammaSqueeze/GammaOS/releases/download/GammaOS_v1_RG405M/UnisocDrivers.zip)
 
 Flashing the Stock OS:
@@ -165,14 +169,14 @@ Flashing the Stock OS:
 - Click the top left Cogwheel/Load Packet icon, this will open an Open file prompt. Navigate to the folder that you extracted the unbricking files to, and open the Firmware folder. Select the Firmware.pac file.
 - The tool will now start unpacking the firmware files, this make take up to 5 minutes and the tool may be unresponsive during this time. You will see a progress bar at the bottom of the application.
 - Once loaded, you will see the text next to the question mark icon: PACKET: RG405M OR RG505. At this point, press the Play/Start Downloading icon.
-- Connect your USB cable to your RG405M/RG505 and plug the cable in to your PC if not done already. 
+- Connect your USB cable to your RG405M/RG505 and plug the cable in to your PC if not done already.
 - Now hold down the following buttons on your RG405M/RG505: POWER + VOL DOWN + BACK, and don't let go until you see a progress bar that mentions Downloading appear on the flashing tool on your pc. When you see this progress bar, you can let go of the buttons.
 - Wait for up to 10 minutes for the flashing process to complete. The process is complete when you see the following in the flashing tool: _POWEROFF_ - Finish - PASSED.
 - You can now unplug the USB cable, and power on your RG405M/RG505 by holding down the POWER + VOL DOWN buttons until you see the Anbernic logo. If you unlocked your bootloader previously, this will persist and you'll still see the debug unlocked text on startup. This is normal.
 - You are now back on stock firmware!
 - (Optional if you don't want to go back to GammaOS) To relock your bootloader, you will need to enable USB debugging, and issue the following command from a command prompt: adb reboot bootloader. Once you are rebooted into fastboot mode, issue the following command: fastboot flashing lock. Press the back/home button to proceed. Once complete, issue the following command: fastboot reboot.
 
-Flashing the custom firmware (optional if you want GammaOS), please follow instructions closely for those on Stock OS: 
+Flashing the custom firmware (optional if you want GammaOS), please follow instructions closely for those on Stock OS:
 Follow the instructions for [Upgrading to v1.3 from GammaOS / Stock OS with unlocked bootloader](https://github.com/TheGammaSqueeze/GammaOS#instructions---upgrading-to-v13-from-gammaos--stock-os-with-unlocked-bootloader)
 
 Changelog
@@ -202,7 +206,7 @@ Changelog
 - (v1.3) Fix for some errors with autoscaling memory freq, and android phone subsystem crashing
 - (v1.3) Added some homebrew roms in the Internal Storage/ROMS folder for new installs
 -------
-- (v1.3) Toggle between performance modes by holding down R3+L1+R1. Options are: Max Performance (everything set to max frequency, uses the most battery life), Normal Performance (scales frequency according to load), Power Save (lowers all frequencies to minimum for max battery life, useful for GBA and below). Recommend enabling threaded video in RetroArch for Power Save mode, or change emulators to less demanding ones. 
+- (v1.3) Toggle between performance modes by holding down R3+L1+R1. Options are: Max Performance (everything set to max frequency, uses the most battery life), Normal Performance (scales frequency according to load), Power Save (lowers all frequencies to minimum for max battery life, useful for GBA and below). Recommend enabling threaded video in RetroArch for Power Save mode, or change emulators to less demanding ones.
 - (v1.3) Add persistence between reboots for XBOX or NS button layout selection.
 - (v1.2) Add fix for L2/R2 issue, using my own code https://github.com/TheGammaSqueeze/retrogame_joypad_2_xbox
 - (v1.2) Presents the physical gamepad as an xbox controller. This may require you to reconfigure your emulators and game controller settings if already on GammaOS.
