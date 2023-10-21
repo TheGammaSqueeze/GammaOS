@@ -63,8 +63,8 @@ The same instructions apply to both RG405M and RG505, use RG405M-FlashPartitions
 [![Anbernic RG405M/RG505 - Install GammaOS Custom Firmware](https://i3.ytimg.com/vi/vMJKEG3CV-k/maxresdefault.jpg)](https://www.youtube.com/watch?v=vMJKEG3CV-k "Anbernic RG405M/RG505 - Install GammaOS Custom Firmware")
 
 Prerequisites:
-- Currently, a Windows or MacOS installation to [unlock the bootloader.](https://github.com/TheGammaSqueeze/GammaOS/issues/12)
-The rest of the process is doable on Linux as well.
+- For the bootloader unlocking method using Google Chrome, [a Windows or MacOS installation](https://github.com/TheGammaSqueeze/GammaOS/issues/12).
+- On Linux, the bootloader can be unlocked with [unisoc-unlock](https://github.com/patrislav1/unisoc-unlock) which requires Python.
 - Extract the GammaOS/GammaOSLite folder and its files before proceeding.
 - Get ADB and Fastboot tools + drivers.
 
@@ -90,7 +90,7 @@ On Garuda, simply run `sudo pacman -Syu android-sdk-platform-tools` since it has
 - Enable USB Debugging on the RG405M/RG505: https://developer.android.com/studio/debug/dev-options
 - Please remove any SD card from your device before proceeding to avoid any potential issues when booting into recovery/fastboot mode.
 
-Unlocking bootloader:
+Unlocking bootloader (Chrome method):
 - Connect your RG405M/RG505 to your PC or Mac via USB cable while booted into Android, open a command prompt window, and issue the following command:
   `adb reboot bootloader`
 - Your RG405M/RG505 will reboot, and you will see the text "fastboot mode" on the screen next to the Anbernic logo
@@ -102,6 +102,18 @@ Unlocking bootloader:
 - Press the Home / Back button on the RG405M/RG505 to proceed. DO NOT PRESS THE VOLUME DOWN BUTTON, only the back button on the front of the RG405M or at the right side of the RG505.
 - Wait for it to complete. The your RG405M/RG505 will display the message "Unlock bootloader success!"
 - Ensure that the Google Chrome window with the thegammasqueeze.github.io/subut-rehost site is now shut before proceeding, otherwise the next commands won't work
+- In your command prompt window, issue the following command: fastboot reboot fastboot
+- You will now be booted into fastbootd mode, ensure that you see the fastbootd text on your RG405M/RG505 before proceeding
+
+Unlocking bootloader (alternative method using Python):
+- Install [unisoc-unlock](https://github.com/patrislav1/unisoc-unlock): `pip3 install unisoc-unlock`
+- Connect your RG405M/RG505 to your PC or Mac via USB cable while booted into Android, open a command prompt window, and issue the following command:
+  `adb reboot bootloader`
+- Your RG405M/RG505 will reboot, and you will see the text "fastboot mode" on the screen next to the Anbernic logo
+- Run unisoc-unlock: `python3 -m unisoc_unlock`
+- On the device there will be a warning "Warning: Unlock device may erase user data. Press volume down button to confirm that. Press volume up button to cancel."
+- Press the Home / Back button on the RG405M/RG505 to proceed. DO NOT PRESS THE VOLUME DOWN BUTTON, only the back button on the front of the RG405M or at the right side of the RG505.
+- Wait for it to complete. The your RG405M/RG505 will display the message "Unlock bootloader success!"
 - In your command prompt window, issue the following command: fastboot reboot fastboot
 - You will now be booted into fastbootd mode, ensure that you see the fastbootd text on your RG405M/RG505 before proceeding
 
