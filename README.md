@@ -1,7 +1,7 @@
 # Anbernic RG405M / RG505
 # GammaOS + GammaOS Lite Custom Firmware - v1.3.3
 
-
+# DO NOT FLASH ON 405V!
 
 - LineageOS based firmware for Anbernic Unisoc T618 devices
 - Uses Retroid Pocket 3+ GPU Drivers for extra performance boost.
