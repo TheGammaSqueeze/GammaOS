@@ -1,7 +1,7 @@
 # Anbernic RG405M / RG505
 # GammaOS + GammaOS Lite Custom Firmware - v1.3.3
 
-# DO NOT FLASH ON 405V!
+# RG405V Beta available here (do not use the 405M firmware on 405V): https://drive.google.com/file/d/1d7TWZHOOc6cg3jMFoIBK6kFH-gW9BXaO/view?usp=sharing
 
 - LineageOS based firmware for Anbernic Unisoc T618 devices
 - Uses Retroid Pocket 3+ GPU Drivers for extra performance boost.
@@ -164,6 +164,7 @@ In some cases, some RG405M/RG505 devices have a different eMMC parition configur
 In this case, you will need to use the RG405M/RG505 unbricking tool to return to stock firmware but with the desired partition configuration. Once this is done, you can then flash the GammaOS safely, or stay on StockOS.
 
 - RG405M Unbricker via Black-Seraphs Patreon: https://www.patreon.com/posts/anbernic-rg405m-81427437
+- RG405V Unbricker: https://drive.google.com/file/d/1idODOwE197mRHwMHDU_Y7bnAiWiackbN/view?usp=sharing
 - RG505 Unbricker: https://drive.google.com/file/d/1WNildo8TZDW6L4tzY9SDEjL3NhPGg_gG/view?usp=drive_link
 
 Video guide here to restore to stock firmware: https://www.youtube.com/watch?v=fT6kulEfWXo
