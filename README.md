@@ -4,7 +4,7 @@
 
 Download and instructions
 ----------------------------
-- GammaOS v1.5 download: https://github.com/TheGammaSqueeze/GammaOS/releases
+- GammaOS v1.5.1 download: https://github.com/TheGammaSqueeze/GammaOS/releases
 - [(Changelog)](https://github.com/TheGammaSqueeze/GammaOS#changelog)
 
 Instructions:
