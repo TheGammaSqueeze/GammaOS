@@ -118,7 +118,7 @@ Flashing the custom firmware:
 - You can now reboot your RG405/RG505 by pressing the power button once.
 - Your device will reboot, and will stay at the Anbernic logo for about 2 minutes before booting into the new firmware for the first time. Reboots after this will be much quicker. Do not be alarmed by the debug messages warning about unlock and skip verify, this is normal after unlocking the bootloader
 - Congratulations, you are now on GammaOS!
-**- Install the GammaOSMicrophoneFix.zip Magisk module (located in the latest release page) if you wish to use the microphone. This will patched in a future release.
+**- Install the GammaOSLatencyMicrophoneFix.zip Magisk module (located in the latest release page) if you wish to use the microphone. This will patched in a future release.
 - If using Citra or another emulator which uses the microphone, you will need to ensure that you deny access to the microphone to ensure you have good performance.**
 - If you are booting back into the stock firmware and not GammaOS, then you may have an incompatible partition layout. You can verify this by looking for failures in the log.txt file in your GammaOS folder. To overcome this, you will need to flash the stock firmware with the unbricker tool and flash GammaOS again. Follow these instructions: [Help! My device is no longer booting! Or I want to go back to Stock OS!](https://github.com/TheGammaSqueeze/GammaOS#help-my-device-is-no-longer-booting-or-i-want-to-go-back-to-stock-os)
 
@@ -150,7 +150,7 @@ Flashing the custom firmware:
 - Once the above is complete, press the power button once to reboot your device.
 - Your device will reboot, and will stay at the Anbernic logo for about 2 minutes before booting into the new firmware for the first time. Reboots after this will be much quicker. Do not be alarmed by the debug messages warning about unlock and skip verify, this is normal after unlocking the bootloader
 - Congratulations, you are now on the latest GammaOS!
-**- Install the GammaOSMicrophoneFix.zip Magisk module (located in the latest release page) if you wish to use the microphone. This will patched in a future release.
+**- Install the GammaOSLatencyMicrophoneFix.zip Magisk module (located in the latest release page) if you wish to use the microphone. This will patched in a future release.
 - If using Citra or another emulator which uses the microphone, you will need to ensure that you deny access to the microphone to ensure you have good performance.**
 
 
