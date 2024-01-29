@@ -193,7 +193,7 @@ Changelog
 - (v1.5) Moved everything to Quick settings tiles for Performance modes, ABXY layout changes, Fan control, Adjusting analog stick sensitivity, invert axis for analog left/right, swap dpad and left analog input (useful for RG ARC). No more need to hold down button combos.
 - (v1.5) Improved audio latency, down from approx 250-500ms to 44ms (89 round robin).
 - (v1.5) Add aptX BT audio support.
-- (v1.5) Improve battery standby time. With Gamma Lite + Airplane mode, can get around 64 days standby time (not fully tested yet).
+- (v1.5) Improve battery standby time. With Gamma Lite + Airplane mode, can get around 30 days standby time.
 - (v1.5) Enable home/back key to act as menu button in RA, as well as the hotkey for other shortcuts.
 - (v1.5) Holding down home/back key will save your progress now in RA, and lets you quick resume games, similar to the MM OnionOS game switcher.
 - (v1.5) Update all RA cores, but stick with RA 1.15 due to touch screen regression.
