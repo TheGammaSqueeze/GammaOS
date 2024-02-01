@@ -61,6 +61,9 @@ Prerequisites:
 - Get ADB and Fastboot tools + drivers.
 
 **On Windows**, ensure you install the Universal ADB Driver also, and then reboot your computer: https://github.com/K3V1991/ADB-and-FastbootPlusPlus
+  - Make sure both these boxes are ticked when installing:
+  - ![image](https://github.com/TheGammaSqueeze/GammaOS/assets/116582950/68ded76b-e917-4513-8dca-8a66d6ff8f50)
+
 
 Install Unisoc Drivers (included in the release zip in the UnisocDrivers folder) Then run the DPInst64.exe program in your relevant OS folder. (Win10 drivers will also work on Win11. Also available here: https://github.com/TheGammaSqueeze/GammaOS/releases/download/GammaOS_v1_RG405M/UnisocDrivers.zip)
 
@@ -137,6 +140,9 @@ Video guide here for upgrading your firmware from GammaOS / Modified Stock OS: h
 Prerequisites:
 - Extract the GammaOS/GammaOSLite folder and its files before proceeding.
 - (Skip if done before) ADB and Fastboot tools + drivers, ensure you install the Universal ADB Driver then reboot your computer: https://github.com/K3V1991/ADB-and-FastbootPlusPlus
+  - Make sure both these boxes are ticked when installing:
+  - ![image](https://github.com/TheGammaSqueeze/GammaOS/assets/116582950/8bed7cd8-d559-4e66-8489-17429dfb5c1d)
+ 
 - (Skip if done before) Install Unisoc Drivers (included in the release zip in the UnisocDrivers folder) - run the DPInst64.exe program in your relevant OS folder. (Win10 drivers will also work on Win11. Also available here: https://github.com/TheGammaSqueeze/GammaOS/releases/download/GammaOS_v1_RG405M/UnisocDrivers.zip)
 - (Skip if done before - Stock OS only) Enable USB Debugging on the RG405/RG505 if on stock firmware: https://developer.android.com/studio/debug/dev-options
 - Please remove any SD card from your device before proceeding to avoid any potential issues when booting into recovery/fastboot mode.
