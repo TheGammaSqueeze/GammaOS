@@ -47,11 +47,14 @@ Instructions - Brand new install (Flashing from Stock Anbernic Firmware. Bootloa
 
 Skip this section if you have either 1) Already installed GammaOS 2) Unlocked your bootloader but are still on stock firmware. - Go to instructions for [Upgrading to v1.5 from GammaOS / Stock OS with unlocked bootloader](https://github.com/TheGammaSqueeze/GammaOS#instructions---upgrading-to-v15-from-gammaos--stock-os-with-unlocked-bootloader)
 
-Video guide here for a brand new install from stock firmware:
-- https://youtu.be/vMJKEG3CV-k
+Video guides here for a brand new install from stock firmware:
+- Joey's Retro Handhelds: https://www.youtube.com/watch?v=gTyQyv8E20I
+  - Written guide here: https://joeysretrohandhelds.com/guides/gammaos-installation-guide-rg405m-rg405v/
+    
+- Retro Tech Dad: https://youtu.be/vMJKEG3CV-k
 
 The same instructions apply to both RG405 and RG505.
-
+[![GammaOS is here for the RG405V! Setup Guide!](https://i3.ytimg.com/vi/gTyQyv8E20I/maxresdefault.jpg)](https://www.youtube.com/watch?v=gTyQyv8E20I "GammaOS is here for the RG405V! Setup Guide!")
 [![Anbernic RG405/RG505 - Install GammaOS Custom Firmware](https://i3.ytimg.com/vi/vMJKEG3CV-k/maxresdefault.jpg)](https://www.youtube.com/watch?v=vMJKEG3CV-k "Anbernic RG405/RG505 - Install GammaOS Custom Firmware")
 
 Prerequisites:
