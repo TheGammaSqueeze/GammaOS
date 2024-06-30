@@ -2,7 +2,7 @@
 # GammaOS + GammaOS Lite Custom Firmware - v1.5.1
 
 # WARNING: NEW UNITS MAY HE AFFECTED BY A HARDWARE CHANGE.
-If you no wifi after installing GammaOS, follow this thread: https://github.com/TheGammaSqueeze/GammaOS/issues/155
+If you have no wifi after installing GammaOS, follow this thread: https://github.com/TheGammaSqueeze/GammaOS/issues/155
 
 Download and instructions
 ----------------------------
