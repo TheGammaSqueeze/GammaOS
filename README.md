@@ -99,9 +99,9 @@ Unlocking bootloader (Chrome method):
 - Click Connect.
 - Click "fastboot gadget" and connect.
 - Click Unlock.
-- On the device there will be a warning "Warning: Unlock device may erase user data. Press volume down button to confirm that. Press volume up button to cancel."
-- Press the Home / Back button on the RG405/RG505 to proceed. DO NOT PRESS THE VOLUME DOWN BUTTON, only the back button on the front of the RG405 or at the right side of the RG505.
-- Wait for it to complete. The your RG405/RG505 will display the message "Unlock bootloader success!"
+- WARNING: DO NOT PRESS THE VOLUME DOWN BUTTON WHEN PROMPTED
+- Instead, you must press the "Home / Back" button to confirm instead (On the RG405m this is located on the front, in the bottom left corner. On the RG505, it's located on the right side)
+- Wait for the unlock complete. Then your RG405/RG505 will display the message "Unlock bootloader success!"
 - Ensure that the Google Chrome window with the thegammasqueeze.github.io/subut-rehost site is now shut before proceeding, otherwise the next commands won't work
 - In your command prompt window, issue the following command: fastboot reboot fastboot
 - You will now be booted into fastbootd mode, ensure that you see the fastbootd text on your RG405/RG505 before proceeding
@@ -112,9 +112,9 @@ Unlocking bootloader (alternative method using Python):
   `adb reboot bootloader`
 - Your RG405/RG505 will reboot, and you will see the text "fastboot mode" on the screen next to the Anbernic logo
 - Run unisoc-unlock: `python3 -m unisoc_unlock`
-- On the device there will be a warning "Warning: Unlock device may erase user data. Press volume down button to confirm that. Press volume up button to cancel."
-- Press the Home / Back button on the RG405/RG505 to proceed. DO NOT PRESS THE VOLUME DOWN BUTTON, only the back button on the front of the RG405 or at the right side of the RG505.
-- Wait for it to complete. The your RG405/RG505 will display the message "Unlock bootloader success!"
+- WARNING: DO NOT PRESS THE VOLUME DOWN BUTTON WHEN PROMPTED
+- Instead, you must press the "Home / Back" button to confirm instead (On the RG405m this is located on the front, in the bottom left corner. On the RG505, it's located on the right side)
+- Wait for the unlock complete. Then your RG405/RG505 will display the message "Unlock bootloader success!"
 - In your command prompt window, issue the following command: fastboot reboot fastboot
 - You will now be booted into fastbootd mode, ensure that you see the fastbootd text on your RG405/RG505 before proceeding
 
