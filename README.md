@@ -91,6 +91,9 @@ On Garuda, simply run `sudo pacman -Syu android-sdk-platform-tools` since it has
 
 **On the Anbernic** device itself:
 - Enable USB Debugging on the RG405/RG505: https://developer.android.com/studio/debug/dev-options
+  - Open "Settings", then "About Handheld Game Console"
+  - Scroll down and click 7 times on "Build number", until you see a message "You're now a developer!"
+  - Go back, click on "System", "Developer options", toggle "USB debugging" then press "OK"
 - Please remove any SD card from your device before proceeding to avoid any potential issues when booting into recovery/fastboot mode.
 
 Unlocking bootloader (Chrome method):
