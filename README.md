@@ -89,6 +89,8 @@ On Arch, you can use the `android-sdk-platform-tools` from AUR.
 
 On Garuda, simply run `sudo pacman -Syu android-sdk-platform-tools` since it has Chaotic-AUR preinstalled.
 
+On Ubuntu, you can run `sudo apt install android-sdk-platform-tools` to install the Android SDK. You will also need pip3, install it with `sudo apt install python3-pip`.
+
 **On the Anbernic** device itself:
 - Enable USB Debugging on the RG405/RG505: https://developer.android.com/studio/debug/dev-options
 - Please remove any SD card from your device before proceeding to avoid any potential issues when booting into recovery/fastboot mode.
